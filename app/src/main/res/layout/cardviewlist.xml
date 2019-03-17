@@ -3,8 +3,8 @@
     android:clickable="true"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/cardidone"
-    android:layout_width="90dp"
-    android:layout_height="90dp"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
     xmlns:cardview="http://schemas.android.com/apk/res-auto"
     android:foreground="?android:attr/selectableItemBackground"
     android:layout_margin="5dp"
@@ -17,7 +17,7 @@
     <ImageView
         android:id="@+id/imagebookid"
         android:layout_width="match_parent"
-        android:layout_height="90dp"
+        android:layout_height="70dp"
         android:scaleType="centerCrop"
         android:background="#2d2d2d" />
 <!--<TextView-->

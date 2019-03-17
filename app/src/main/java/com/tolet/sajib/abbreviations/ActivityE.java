@@ -1,13 +1,10 @@
 package com.tolet.sajib.abbreviations;
 
-import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.widget.ExpandableListView;
-import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.tolet.sajib.abbreviations.adapter.CustomAdapter;
 
@@ -15,8 +12,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class Booklist extends AppCompatActivity {
-
+public class ActivityE extends AppCompatActivity {
     private ExpandableListView expandableListView;
     private CustomAdapter customAdapter;
     private Toolbar mtoolbar;
@@ -27,9 +23,9 @@ public class Booklist extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_booklist);
-        mtoolbar=findViewById(R.id.toolbarid);
-        mtoolbar.setTitle("Abbreviations:A");
+        setContentView(R.layout.activity_e);
+        mtoolbar = findViewById(R.id.toolbarid);
+        mtoolbar.setTitle("Abbreviations:D");
         mtoolbar.setTitleTextColor(Color.WHITE);
         preparelistdata();
         expandableListView = findViewById(R.id.expandibleid);
@@ -38,18 +34,17 @@ public class Booklist extends AppCompatActivity {
         expandableListView.setOnGroupExpandListener(new ExpandableListView.OnGroupExpandListener() {
             @Override
             public void onGroupExpand(int i) {
-                if(colapseposition!=-1 &&colapseposition!=i){
-                expandableListView.collapseGroup(colapseposition);
+                if (colapseposition != -1 && colapseposition != i) {
+                    expandableListView.collapseGroup(colapseposition);
                 }
-                colapseposition=i;
+                colapseposition = i;
             }
         });
-
     }
 
     public void preparelistdata() {
-        String[] headerString = getResources().getStringArray(R.array.parent_name);
-        String[] childString = getResources().getStringArray(R.array.childname);
+        String[] headerString = getResources().getStringArray(R.array.eparent);
+        String[] childString = getResources().getStringArray(R.array.echild);
 
         listdataheader = new ArrayList<>();
         listdatachild = new HashMap<>();

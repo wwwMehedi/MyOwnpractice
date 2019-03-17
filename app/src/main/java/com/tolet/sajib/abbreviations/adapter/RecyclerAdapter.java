@@ -12,6 +12,31 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.tolet.sajib.abbreviations.ActivityB;
+import com.tolet.sajib.abbreviations.ActivityC;
+import com.tolet.sajib.abbreviations.ActivityD;
+import com.tolet.sajib.abbreviations.ActivityE;
+import com.tolet.sajib.abbreviations.ActivityF;
+import com.tolet.sajib.abbreviations.ActivityG;
+import com.tolet.sajib.abbreviations.ActivityH;
+import com.tolet.sajib.abbreviations.ActivityI;
+import com.tolet.sajib.abbreviations.ActivityJ;
+import com.tolet.sajib.abbreviations.ActivityK;
+import com.tolet.sajib.abbreviations.ActivityL;
+import com.tolet.sajib.abbreviations.ActivityM;
+import com.tolet.sajib.abbreviations.ActivityN;
+import com.tolet.sajib.abbreviations.ActivityO;
+import com.tolet.sajib.abbreviations.ActivityP;
+import com.tolet.sajib.abbreviations.ActivityQ;
+import com.tolet.sajib.abbreviations.ActivityR;
+import com.tolet.sajib.abbreviations.ActivityS;
+import com.tolet.sajib.abbreviations.ActivityT;
+import com.tolet.sajib.abbreviations.ActivityU;
+import com.tolet.sajib.abbreviations.ActivityV;
+import com.tolet.sajib.abbreviations.ActivityW;
+import com.tolet.sajib.abbreviations.ActivityX;
+import com.tolet.sajib.abbreviations.ActivityY;
+import com.tolet.sajib.abbreviations.ActivityZ;
 import com.tolet.sajib.abbreviations.Booklist;
 import com.tolet.sajib.abbreviations.R;
 import com.tolet.sajib.abbreviations.model.BookModel;
@@ -47,23 +72,106 @@ if(i==0){
       context.startActivity(intent);
 }
 else if(i==1){
-    Toast.makeText(context, "one", Toast.LENGTH_SHORT).show();
+    Intent intent=new Intent(context, ActivityB.class);
+    context.startActivity(intent);
 }
 else if(i==2){
-    Toast.makeText(context, "two", Toast.LENGTH_SHORT).show();
+    Intent intent=new Intent(context, ActivityC.class);
+    context.startActivity(intent);
 }
 else if(i==3){
-    Toast.makeText(context, "three", Toast.LENGTH_SHORT).show();
+    Intent intent=new Intent(context, ActivityD.class);
+    context.startActivity(intent);
 }
 else if(i==4){
-    Toast.makeText(context, "four", Toast.LENGTH_SHORT).show();
+    Intent intent=new Intent(context, ActivityE.class);
+    context.startActivity(intent);
 }
 else if(i==5){
-    Toast.makeText(context, "five", Toast.LENGTH_SHORT).show();
+    Intent intent=new Intent(context, ActivityF.class);
+    context.startActivity(intent);
 }
 else if(i==6){
-    Toast.makeText(context, "six", Toast.LENGTH_SHORT).show();
+    Intent intent=new Intent(context, ActivityG.class);
+    context.startActivity(intent);
 }
+else if(i==7){
+    Intent intent=new Intent(context, ActivityH.class);
+    context.startActivity(intent);
+}
+else if(i==8){
+    Intent intent=new Intent(context, ActivityI.class);
+    context.startActivity(intent);
+}
+else if(i==9){
+    Intent intent=new Intent(context, ActivityJ.class);
+    context.startActivity(intent);
+}
+else if(i==10){
+    Intent intent=new Intent(context, ActivityK.class);
+    context.startActivity(intent);
+}
+else if(i==11){
+    Intent intent=new Intent(context, ActivityL.class);
+    context.startActivity(intent);
+}
+else if(i==12){
+    Intent intent=new Intent(context, ActivityM.class);
+    context.startActivity(intent);
+}
+else if(i==13){
+    Intent intent=new Intent(context, ActivityN.class);
+    context.startActivity(intent);
+}
+else if(i==14){
+    Intent intent=new Intent(context, ActivityO.class);
+    context.startActivity(intent);
+}
+else if(i==15){
+    Intent intent=new Intent(context, ActivityP.class);
+    context.startActivity(intent);
+}
+else if(i==16){
+    Intent intent=new Intent(context, ActivityQ.class);
+    context.startActivity(intent);
+}
+else if(i==17){
+    Intent intent=new Intent(context, ActivityR.class);
+    context.startActivity(intent);
+}
+else if(i==18){
+    Intent intent=new Intent(context, ActivityS.class);
+    context.startActivity(intent);
+}
+else if(i==19){
+    Intent intent=new Intent(context, ActivityT.class);
+    context.startActivity(intent);
+}
+else if(i==20){
+    Intent intent=new Intent(context, ActivityU.class);
+    context.startActivity(intent);
+}
+else if(i==21){
+    Intent intent=new Intent(context, ActivityV.class);
+    context.startActivity(intent);
+}
+else if(i==22){
+    Intent intent=new Intent(context, ActivityW.class);
+    context.startActivity(intent);
+}
+else if(i==23){
+    Intent intent=new Intent(context, ActivityX.class);
+    context.startActivity(intent);
+}
+else if(i==24){
+    Intent intent=new Intent(context, ActivityY.class);
+    context.startActivity(intent);
+}
+else if(i==25){
+    Intent intent=new Intent(context, ActivityZ.class);
+    context.startActivity(intent);
+}
+
 //                Intent intent=new Intent(context,Booklist.class);
 //                intent.putExtra("title",bmodel.get(i).getTitle());
 //                intent.putExtra("description",bmodel.get(i).getDescription());

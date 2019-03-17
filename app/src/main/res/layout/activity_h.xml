@@ -5,19 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#2196F3"
-    tools:context=".Booklist">
-<include
-    android:id="@+id/toolbarid"
-  layout="@layout/toolbar"
-    />
+    tools:context=".ActivityH">
+    <include
+        android:id="@+id/toolbarid"
+        layout="@layout/toolbar"
+        />
 
 
-<ExpandableListView
-    android:id="@+id/expandibleid"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-</ExpandableListView>
-
-
+    <ExpandableListView
+        android:id="@+id/expandibleid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ExpandableListView>
 </LinearLayout>

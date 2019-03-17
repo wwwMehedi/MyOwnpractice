@@ -1,3 +1,790 @@
 <resources>
-    <string name="app_name">Abbreviations</string>
+    <string name="app_name">Abbreviation</string>
+
+    <string-array name="parent_name">
+        <item>AE</item>
+        <item>AES</item>
+        <item>AF</item>
+        <item>AFP</item>
+        <item>AGP</item>
+        <item>AH</item>
+        <item>AI</item>
+        <item>AIX</item>
+        <item>AJAX</item>
+        <item>AL</item>
+        <item>AL</item>
+        <item>ALAC</item>
+        <item>ALGOL</item>
+        <item>ALSA</item>
+        <item>ALU</item>
+        <item>AM</item>
+
+    </string-array>
+
+    <string-array name="childname">
+        <item>Adaptive Equalizer</item>
+        <item>Advanced Encryption Standard</item>
+        <item>Anisotropic Filtering</item>
+        <item>Apple Filing Protocol</item>
+        <item>Accelerated Graphics Port</item>
+        <item>Active Hub</item>
+        <item>Artificial Intelligence</item>
+        <item>Advanced Interactive eXecutive</item>
+        <item>Asynchronous JavaScript and XML</item>
+        <item>Active Link</item>
+        <item>Access List</item>
+        <item>Apple Lossless Audio Codec</item>
+        <item>Algorithmic Language</item>
+        <item>Advanced Linux Sound Architecture</item>
+        <item>Arithmetic and Logical Unit</item>
+        <item>Active Matrix</item>
+    </string-array>
+
+    <string-array name="bparent_name">
+        <item>B2B</item>
+        <item>B2C</item>
+        <item>B2E</item>
+        <item>BAL</item>
+        <item>BAM</item>
+        <item>Bash</item>
+        <item>BASIC</item>
+        <item>BBS</item>
+        <item>BC</item>
+        <item>BCD</item>
+        <item>BCD</item>
+        <item>BCNF</item>
+        <item>BEEP</item>
+    </string-array>
+    <string-array name="chilb">
+        <item>Business-to-Business</item>
+        <item>Business-to-Consumer</item>
+        <item>Business-to-Employee</item>
+        <item>Basic Assembly Language</item>
+        <item>Block Availability Map</item>
+        <item>Bourne-again shell</item>
+        <item>Beginners All-Purpose Symbolic Instruction Code</item>
+        <item>Baseband Processor</item>
+        <item>Business Continuity</item>
+        <item>Binary Coded Decimal</item>
+        <item>Boot Configuration Data</item>
+        <item>Boyce–Codd normal form</item>
+        <item>Blocks Extensible Exchange Protocol</item>
+    </string-array>
+    <string-array name="cparent">
+        <item>CA</item>
+        <item>CAD</item>
+        <item>CAE</item>
+        <item>CAID</item>
+        <item>CAI</item>
+        <item>CAM</item>
+        <item>CAPTCHA</item>
+        <item>CAT</item>
+        <item>CAQ</item>
+        <item>CASE</item>
+        <item>CD</item>
+        <item>CDE</item>
+        <item>CDFS</item>
+        <item>CDMA</item>
+        <item>CDN</item>
+        <item>CDP</item>
+    </string-array>
+    <string-array name="cchild">
+        <item>Computer Accountancy</item>
+        <item>Computer-Aided Design</item>
+        <item>Computer-Aided Engineering</item>
+        <item>Computer-Aided Industrial Design</item>
+        <item>Computer-Aided Instruction</item>
+        <item>Computer-Aided Manufacturing</item>
+        <item>Completely Automated Public Turing Test to tell Computers and Humans Apart</item>
+        <item>Computer-Aided Translation</item>
+        <item>Computer-Aided Quality Assurance</item>
+        <item>Computer-Aided Software Engineering</item>
+        <item>Compact Disc</item>
+        <item>Common Desktop Environment</item>
+        <item>Compact Disk File System</item>
+        <item>Code Division Multiple Access</item>
+        <item>Content Delivery Network</item>
+        <item>Cisco Discovery Protocol</item>
+    </string-array>
+    <string-array name="dparent">
+        <item>DAC</item>
+        <item>DAC</item>
+        <item>DAL</item>
+        <item>DAO</item>
+        <item>DAO</item>
+        <item>DAO</item>
+        <item>DAP</item>
+        <item>DARPA</item>
+        <item>DAT</item>
+        <item>DB</item>
+        <item>DBA</item>
+        <item>DBCS</item>
+        <item>DBMS</item>
+        <item>DCC</item>
+        <item>DCCP</item>
+        <item>DCCA</item>
+    </string-array>
+    <string-array name="dchild">
+        <item>Digital-To-Analog Converter</item>
+        <item>Discretionary Access Control</item>
+        <item>Database Abstraction Layer</item>
+        <item>Data Access Object</item>
+        <item>Data Access Object</item>
+        <item>Disk-At-Once</item>
+        <item>Directory Access Protocol</item>
+        <item>Defense Advanced Research Projects Agency</item>
+        <item>Digital Audio Tape</item>
+        <item>Database</item>
+        <item>Database Administrator</item>
+        <item>Double Byte Character Set</item>
+        <item>Database Management System</item>
+        <item>Direct Client-to-Client</item>
+        <item>Datagram Congestion Control Protocol</item>
+        <item>Debian Common Core Alliance</item>
+    </string-array>
+    <string-array name="eparent">
+        <item>EAI</item>
+        <item>EAP</item>
+        <item>EAS</item>
+        <item>EBCDIC</item>
+        <item>EBML</item>
+        <item>ECC</item>
+        <item>ECMA</item>
+        <item>ECN</item>
+        <item>ECRS</item>
+        <item>EDA</item>
+        <item>EDGE</item>
+        <item>EDI</item>
+        <item>EDO</item>
+        <item>EDSAC</item>
+        <item>EDVAC</item>
+    </string-array>
+    <string-array name="echild">
+        <item>Enterprise Application Integration</item>
+        <item>Extensible Authentication Protocol</item>
+        <item>Exchange ActiveSync</item>
+        <item>Extended Binary Coded Decimal Interchange Code</item>
+        <item>Extensible Binary Meta Language</item>
+        <item>Elliptic Curve Cryptography</item>
+        <item>European Computer Manufacturers Association</item>
+        <item>Explicit Congestion Notification</item>
+        <item>Expense and Cost Recovery System</item>
+        <item>Electronic Design Automation</item>
+        <item>Enhanced Data rates for GSM Evolution</item>
+        <item>Electronic Data Interchange</item>
+        <item>Extended Data Out</item>
+        <item>Electronic Delay Storage Automatic Calculator</item>
+        <item>Electronic Discrete Variable Automatic Computer</item>
+    </string-array>
+    <string-array name="fparent">
+        <item>FAP</item>
+        <item>FASM</item>
+        <item>FAT</item>
+        <item>FAQ</item>
+        <item>FBDIMM</item>
+        <item>FC</item>
+        <item>FCB</item>
+        <item>FCS</item>
+        <item>FDC</item>
+        <item>FDS</item>
+        <item>FDD</item>
+        <item>FDD</item>
+        <item>FDDI</item>
+        <item>FDM</item>
+        <item>FDMA</item>
+    </string-array>
+    <string-array name="fchild">
+        <item>FORTRAN Assembly Program</item>
+        <item>Flat ASseMbler</item>
+        <item>File Allocation Table</item>
+        <item>Frequently Asked Questions</item>
+        <item>Fully Buffered Dual Inline Memory Module</item>
+        <item>AL—Fibre Channel Arbitrated Loop</item>
+        <item>File Control Block</item>
+        <item>Frame Check Sequence</item>
+        <item>Floppy Disk Controller</item>
+        <item>Fedora Directory Server</item>
+        <item>Frequency-Division Duplexing</item>
+        <item>Floppy Disk Drive</item>
+        <item>Fiber Distributed Data Interface</item>
+        <item>Frequency-Division Multiplexing</item>
+        <item>Frequency-Division Multiple Access</item>
+    </string-array>
+    <string-array name="gparent">
+        <item>GPL</item>
+        <item>GPL</item>
+        <item>GPRS</item>
+        <item>GPT</item>
+        <item>GPU</item>
+        <item>GRUB</item>
+        <item>GERAN</item>
+        <item>GSM</item>
+        <item>GUI</item>
+        <item>GUID</item>
+        <item>GWT</item>
+        <item>GYR</item>
+        <item>GIS</item>
+        <item>GLUT</item>
+        <item>GML</item>
+    </string-array>
+    <string-array name="gchild">
+        <item>General Public License</item>
+        <item>General-Purpose Language</item>
+        <item>General Packet Radio Service</item>
+        <item>GUID Partition Table</item>
+        <item>Graphics Processing Unit</item>
+        <item>Grand Unified Boot-Loader</item>
+        <item>GSM EDGE Radio Access Network</item>
+        <item>Global System for Mobile Communications</item>
+        <item>Graphical User Interface</item>
+        <item>Globally Unique IDentifier</item>
+        <item>Google Web Toolkit</item>
+        <item>IT Networking</item>
+        <item>Geographic Information System</item>
+        <item>OpenGL Utility Toolkit</item>
+        <item>Geography Markup Language</item>
+    </string-array>
+    <string-array name="hparent">
+        <item>HTC</item>
+        <item>HSM</item>
+        <item>HT</item>
+        <item>HTM</item>
+        <item>HTML</item>
+        <item>HTTP</item>
+        <item>HTTPd</item>
+        <item>HTTPS</item>
+        <item>HTX</item>
+        <item>HURD</item>
+        <item>HVD</item>
+        <item>Hz</item>
+        <item>HFS</item>
+        <item>HHD</item>
+        <item>HID</item>
+    </string-array>
+    <string-array name="hchild">
+        <item>High-Throughput Computing</item>
+        <item>Hierarchical Storage Management</item>
+        <item>Hyper Threading</item>
+        <item>Hierarchical Temporal Memory</item>
+        <item>Hypertext Markup Language</item>
+        <item>Hypertext Transfer Protocol</item>
+        <item>Hypertext Transport Protocol Daemon</item>
+        <item>HTTP Secure</item>
+        <item>HyperTransport eXpansion</item>
+        <item>HURD</item>
+        <item>Hird of Unix-Replacing Daemons</item>
+        <item>Hertz</item>
+        <item>Hierarchical File System</item>
+        <item>Hybrid Hard Drive</item>
+        <item>Human Interface Device</item>
+    </string-array>
+    <string-array name="iparent">
+        <item>IR</item>
+        <item>IRC</item>
+        <item>IrDA</item>
+        <item>IRI</item>
+        <item>IRQ</item>
+        <item>IS</item>
+        <item>IS</item>
+        <item>ISA</item>
+        <item>ISA</item>
+        <item>ISAM</item>
+        <item>ISATAP</item>
+        <item>ISC</item>
+        <item>iSCSI</item>
+        <item>ISDN</item>
+        <item>IPsec</item>
+    </string-array>
+    <string-array name="ichild">
+        <item>Intermediate Representation</item>
+        <item>Internet Relay Chat</item>
+        <item>Infrared Data Association</item>
+        <item>Internationalized Resource Identifier</item>
+        <item>Interrupt Request</item>
+        <item>Information Systems</item>
+        <item>IS—Intermediate System to Intermediate System</item>
+        <item>Industry Standard Architecture</item>
+        <item>Instruction Set Architecture</item>
+        <item>Indexed Sequential Access Method</item>
+        <item>Intra-Site Automatic Tunnel Addressing Protocol</item>
+        <item>Internet Storm Center</item>
+        <item>Internet Small Computer System Interface</item>
+        <item>Integrated Services Digital Network</item>
+        <item>Internet Protocol security</item>
+    </string-array>
+    <string-array name="jparent">
+        <item>JNI</item>
+        <item>JNZ</item>
+        <item>JPEG</item>
+        <item>JRE</item>
+        <item>JS</item>
+        <item>JSE</item>
+        <item>JSON</item>
+        <item>JSP</item>
+        <item>JSP</item>
+        <item>JTAG</item>
+        <item>JUG</item>
+        <item>JVM</item>
+        <item>JFET</item>
+        <item>JFS</item>
+        <item>JINI</item>
+    </string-array>
+    <string-array name="jchild">
+        <item>Java Native Interface</item>
+        <item>Jump non-zero</item>
+        <item>Joint Photographic Experts Group</item>
+        <item>Java Runtime Environment</item>
+        <item>JavaScript</item>
+        <item>Java Standard Edition</item>
+        <item>JavaScript Object Notation</item>
+        <item>Jackson Structured Programming</item>
+        <item>JavaServer Pages</item>
+        <item>Joint Test Action Group</item>
+        <item>Java Users Group</item>
+        <item>Java Virtual Machine</item>
+        <item>Junction Field-Effect Transistor</item>
+        <item>IBM Journaling File System</item>
+        <item>Jini Is Not Initials</item>
+    </string-array>
+    <string-array name="kparent">
+        <item>KM</item>
+        <item>KRL</item>
+        <item>KVM</item>
+        <item>KB</item>
+        <item>KiB</item>
+        <item>KDE</item>
+        <item>kHz</item>
+        <item>KB</item>
+        <item>KB</item>
+        <item>KB</item>
+    </string-array>
+    <string-array name="kchild">
+        <item>Knowledge Machine</item>
+        <item>Knowledge Representation Language</item>
+        <item>Keyboard, Video, Mouse</item>
+        <item>Knowledge Base</item>
+        <item>Kibibyte</item>
+        <item>K Desktop Environment</item>
+        <item>Kilohertz</item>
+        <item>Keyboard</item>
+        <item>Kilobit</item>
+        <item>Kilobyte</item>
+    </string-array>
+    <string-array name="lparent">
+        <item>LSB</item>
+        <item>LSB</item>
+        <item>LSI</item>
+        <item>LTE</item>
+        <item>LTL</item>
+        <item>LTR</item>
+        <item>LUG</item>
+        <item>LUN</item>
+        <item>LV</item>
+        <item>LVD</item>
+        <item>LVM</item>
+        <item>LZW</item>
+        <item>LF</item>
+        <item>LFS</item>
+        <item>LGPL</item>
+    </string-array>
+    <string-array name="lchild">
+        <item>Least Significant Bit</item>
+        <item>Linux Standard Base</item>
+        <item>Large-Scale Integration</item>
+        <item>Long Term Evolution</item>
+        <item>Linear Temporal Logic</item>
+        <item>Left-to-Right</item>
+        <item>Linux User Group</item>
+        <item>Logical Unit Number</item>
+        <item>Logical Volume</item>
+        <item>Low Voltage Differential</item>
+        <item>Logical Volume Management</item>
+        <item>Lempel-Ziv-Welch</item>
+        <item>Low Frequency</item>
+        <item>Linux From Scratch</item>
+        <item>Lesser General Public License</item>
+    </string-array>
+    <string-array name="mparent">
+        <item>MFC</item>
+        <item>MFM</item>
+        <item>MGCP</item>
+        <item>MHz</item>
+        <item>MIB</item>
+        <item>MICR</item>
+        <item>MIDI</item>
+        <item>MIMO</item>
+        <item>MINIX</item>
+        <item>MIPS</item>
+        <item>MIPS</item>
+        <item>MIS</item>
+        <item>MISD</item>
+        <item>MIT</item>
+        <item>MIME</item>
+    </string-array>
+    <string-array name="mchild">
+        <item>Microsoft Foundation Classes</item>
+        <item>Modified Frequency Modulation</item>
+        <item>Media Gateway Control Protocol</item>
+        <item>Megahertz</item>
+        <item>Management Information Base</item>
+        <item>Magnetic Ink Character Recognition</item>
+        <item>Musical Instrument Digital Interface</item>
+        <item>Multiple-Input Multiple-Output</item>
+        <item>MIni-uNIX</item>
+        <item>Million Instructions Per Second</item>
+        <item>Microprocessor without Interlocked Pipeline Stages</item>
+        <item>Management Information Systems</item>
+        <item>Multiple Instruction, Single Data</item>
+        <item>Massachusetts Institute of Technology</item>
+        <item>Multipurpose Internet Mail Extensions</item>
+    </string-array>
+    <string-array name="nparent">
+        <item>NFC</item>
+        <item>NFS</item>
+        <item>NGL</item>
+        <item>NGSCB</item>
+        <item>NI</item>
+        <item>NIC</item>
+        <item>NIM</item>
+        <item>NIST</item>
+        <item>NLP</item>
+        <item>NLS</item>
+        <item>NMI</item>
+        <item>NNTP</item>
+        <item>NOC</item>
+        <item>NOP</item>
+    </string-array>
+    <string-array name="nchild">
+        <item>Near field communication</item>
+        <item>Network File System</item>
+        <item>aNGeL</item>
+        <item>Next-Generation Secure Computing Base</item>
+        <item>National Instruments</item>
+        <item>Network Interface Controller</item>
+        <item>No Internal Message</item>
+        <item>National Institute of Standards and Technology</item>
+        <item>Natural Language Processing</item>
+        <item>Native Language Support</item>
+        <item>Non-Maskable Interrupt</item>
+        <item>Network News Transfer Protocol</item>
+        <item>Network Operations Center</item>
+        <item>No OPeration</item>
+    </string-array>
+    <string-array name="oparent">
+        <item>ORM</item>
+        <item>OS</item>
+        <item>OS</item>
+        <item>OSDN</item>
+        <item>OSI</item>
+        <item>OSI</item>
+        <item>OSPF</item>
+        <item>OSS</item>
+        <item>OSS</item>
+        <item>OSS</item>
+        <item>OSTG</item>
+        <item>OUI</item>
+        <item>OMG</item>
+        <item>OMR</item>
+    </string-array>
+    <string-array name="ochild">
+        <item>Object-Relational Mapping</item>
+        <item>Open Source</item>
+        <item>Operating System</item>
+        <item>Open Source Development Network</item>
+        <item>Open Source Initiative</item>
+        <item>Open Systems Interconnection</item>
+        <item>Open Shortest Path First</item>
+        <item>Open Sound System</item>
+        <item>Open-Source Software</item>
+        <item>Operations Support System</item>
+        <item>Open Source Technology Group</item>
+        <item>Organisationally Unique Identifier</item>
+        <item>Object Management Group</item>
+        <item>Optical Mark Reader</item>
+    </string-array>
+    <string-array name="pparent">
+        <item>PoE</item>
+        <item>POID</item>
+        <item>POJO</item>
+        <item>POP</item>
+        <item>POP3</item>
+        <item>POSIX</item>
+        <item>POST</item>
+        <item>PPC</item>
+        <item>PPI</item>
+        <item>PPP</item>
+        <item>PPPoA</item>
+        <item>PPPoE</item>
+        <item>PPTP</item>
+        <item>PR</item>
+        <item>PS</item>
+    </string-array>
+    <string-array name="pchild">
+        <item>Power over Ethernet</item>
+        <item>Persistent Object Identifier</item>
+        <item>Plain Old Java Object</item>
+        <item>Point of Presence</item>
+        <item>Post Office Protocol v3</item>
+        <item>Portable Operating System Interface, formerly IEEE-IX</item>
+        <item>Power-On Self Test</item>
+        <item>PowerPC</item>
+        <item>Pixels Per Inch</item>
+        <item>Point-to-Point Protocol</item>
+        <item>PPP over ATM</item>
+        <item>PPP over Ethernet</item>
+        <item>Point-to-Point Tunneling Protocol</item>
+        <item>Pull Request</item>
+        <item>PostScript</item>
+    </string-array>
+    <string-array name="qparennt">
+        <item>QDR</item>
+        <item>QA</item>
+        <item>QFP</item>
+        <item>QoS</item>
+        <item>QOTD</item>
+        <item>Qt</item>
+        <item>QTAM</item>
+        <item>QSOP</item>
+        <item>qWave</item>
+    </string-array>
+    <string-array name="qchilld">
+        <item>Quad Data Rate</item>
+        <item>Quality Assurance</item>
+        <item>Quad Flat Package</item>
+        <item>Quality of Service</item>
+        <item>Quote of the Day</item>
+        <item>Quasar Toolkit</item>
+        <item>Queued Teleprocessing Access Method</item>
+        <item>Quarter Small Outline Package</item>
+        <item>Quality Windows Audio/Video Experience</item>
+    </string-array>
+    <string-array name="rparent">
+        <item>ROM</item>
+        <item>ROM</item>
+        <item>RPC</item>
+        <item>RPG</item>
+        <item>RPM</item>
+        <item>RRAS</item>
+        <item>RSA</item>
+        <item>RSI</item>
+        <item>RSS</item>
+        <item>RSS</item>
+        <item>RTAI</item>
+        <item>RTC</item>
+        <item>RTE</item>
+        <item>RTEMS</item>
+    </string-array>
+    <string-array name="rchild">
+        <item>Read Only Memory</item>
+        <item>Read-Out Motherboard</item>
+        <item>Remote Procedure Call</item>
+        <item>Report Program Generator</item>
+        <item>RPM Package Manager</item>
+        <item>Routing and Remote Access Service</item>
+        <item>Rivest Shamir Adleman</item>
+        <item>Repetitive Strain Injury</item>
+        <item>Radio Service Software</item>
+        <item>Rich Site Summary, RDF Site Summary, or Really Simple Syndication</item>
+        <item>Real-Time Application Interface</item>
+        <item>Real-Time Clock</item>
+        <item>Real-Time Enterprise</item>
+        <item>Real-Time Executive for Multiprocessor Systems</item>
+    </string-array>
+    <string-array name="sparent">
+        <item>SOAP</item>
+        <item>SOAP</item>
+        <item>SOPA</item>
+        <item>SoC</item>
+        <item>SO-DIMM</item>
+        <item>SOE</item>
+        <item>SOHO</item>
+        <item>SOI</item>
+        <item>SP</item>
+        <item>SPA</item>
+        <item>SPF</item>
+        <item>SPI</item>
+        <item>SPARC</item>
+        <item>SQL</item>
+        <item>SRAM</item>
+    </string-array>
+    <string-array name="schild">
+        <item>Simple Object Access Protocol</item>
+        <item>Symbolic Optimal Assembly Program</item>
+        <item>Stop Online Piracy Act</item>
+        <item>System-on-a-Chip</item>
+        <item>Small Outline DIMM</item>
+        <item>Standard Operating Environment</item>
+        <item>Small Office or Home Office </item>
+        <item>Silicon On Insulator</item>
+        <item>Service Pack</item>
+        <item>Single Page Application</item>
+        <item>Sender Policy Framework</item>
+        <item>Serial Peripheral Interface</item>
+        <item>Scalable Processor Architecture</item>
+        <item>Structured Query Language</item>
+        <item>Static Random Access Memory</item>
+    </string-array>
+    <string-array name="tparent">
+        <item>TSP</item>
+        <item>TSR</item>
+        <item>TTA</item>
+        <item>TTF</item>
+        <item>TTL</item>
+        <item>TTL</item>
+        <item>TTS</item>
+        <item>TTY</item>
+        <item>TUCOWS</item>
+        <item>TUG</item>
+        <item>TWAIN</item>
+    </string-array>
+    <string-array name="tchild">
+        <item>Traveling Salesman Problem</item>
+        <item>Terminate and Stay Resident</item>
+        <item>True Tap Audio</item>
+        <item>TrueType Font</item>
+        <item>Transistor-Transistor Logic</item>
+        <item>Time To Live</item>
+        <item>Text-to-Speech</item>
+        <item>Teletype</item>
+        <item>The Ultimate Collection of Winsock Software</item>
+        <item>TeX Users Group</item>
+        <item>Technology Without An Interesting Name</item>
+    </string-array>
+    <string-array name="uparent">
+        <item>UMA</item>
+        <item>UMB</item>
+        <item>UML</item>
+        <item>UML</item>
+        <item>UMPC</item>
+        <item>UMTS</item>
+        <item>UNC</item>
+        <item>UNIVAC</item>
+        <item>UPS</item>
+        <item>URI</item>
+        <item>URL</item>
+        <item>URN</item>
+        <item>USB</item>
+    </string-array>
+    <string-array name="uchild">
+        <item>Upper Memory Area</item>
+        <item>Upper Memory Block</item>
+        <item>Unified Modeling Language</item>
+        <item>User-Mode Linux</item>
+        <item>Ultra-Mobile Personal Computer</item>
+        <item>Universal Mobile Telecommunications System</item>
+        <item>Universal Naming Convention</item>
+        <item>Universal Automatic Computer</item>
+        <item>Uninterruptible Power Supply</item>
+        <item>Uniform Resource Identifier</item>
+        <item>Uniform Resource Locator</item>
+        <item>Uniform Resource Name</item>
+        <item>Universal Serial Bus</item>
+    </string-array>
+    <string-array name="vparent">
+        <item>VMM</item>
+        <item>VNC</item>
+        <item>VOD</item>
+        <item>VoIP</item>
+        <item>VPN</item>
+        <item>VPU</item>
+        <item>VSAM</item>
+        <item>VSAT</item>
+        <item>VT</item>
+        <item>VTL</item>
+        <item>VTAM</item>
+        <item>VRAM</item>
+    </string-array>
+    <string-array name="vchild">
+        <item>Virtual Machine Monitor</item>
+        <item>Virtual Network Computing</item>
+        <item>Video On Demand</item>
+        <item>Voice over Internet Protocol</item>
+        <item>Virtual Private Network</item>
+        <item>Visual Processing Unit</item>
+        <item>Virtual Storage Access Method</item>
+        <item>Very Small Aperture Terminal</item>
+        <item>Video Terminal</item>
+        <item> Virtual Tape Library</item>
+        <item>Virtual Telecommunications Access Method</item>
+        <item>Video Random Access Memory</item>
+    </string-array>
+    <string-array name="wparent">
+        <item>WPA</item>
+        <item>WPAD</item>
+        <item>WPAN</item>
+        <item>WPF</item>
+        <item>WSDL</item>
+        <item>WSFL</item>
+        <item>WUSB</item>
+        <item>WWAN</item>
+        <item>WWID</item>
+        <item>WWN</item>
+        <item>WYSIWYG</item>
+        <item>WZC</item>
+    </string-array>
+    <string-array name="wchild">
+        <item>Wi-Fi Protected Access</item>
+        <item>Web Proxy Autodiscovery Protocol</item>
+        <item>Wireless Personal Area Network</item>
+        <item>Windows Presentation Foundation</item>
+        <item>Web Services Description Language</item>
+        <item>Web Services Flow Language</item>
+        <item>Wireless Universal Serial Bus</item>
+        <item>Wireless Wide Area Network</item>
+        <item>World Wide Identifier</item>
+        <item>World Wide Name</item>
+        <item>What You See Is What You Get</item>
+        <item>Wireless Zero Configuration</item>
+    </string-array>
+    <string-array name="xparent">
+        <item>XMS</item>
+        <item>XNS</item>
+        <item>XP</item>
+        <item>XP</item>
+        <item>XPCOM</item>
+        <item>XPI</item>
+        <item>XPIDL</item>
+        <item>XPS</item>
+        <item>XSD</item>
+        <item>XSL</item>
+    </string-array>
+    <string-array name="xchild">
+        <item>Extended Memory Specification</item>
+        <item>Xerox Network Systems</item>
+        <item>Cross-Platform</item>
+        <item>Extreme Programming</item>
+        <item>Cross Platform Component Object Model</item>
+        <item>XPInstall</item>
+        <item>Cross-Platform IDL</item>
+        <item>XML Paper Specification</item>
+        <item>XML Schema Definition</item>
+        <item>eXtensible Stylesheet Language</item>
+    </string-array>
+    <string-array name="yparent">
+        <item>Y2K</item>
+        <item>YAAF</item>
+        <item>YACC</item>
+        <item>YaST</item>
+    </string-array>
+    <string-array name="ychild">
+        <item>Year Two Thousand</item>
+        <item>Yet Another Application Framework</item>
+        <item>Yet Another Compiler Compiler</item>
+        <item>Yet another Setup Tool</item>
+    </string-array>
+    <string-array name="zparent">
+        <item>ZCAV</item>
+        <item>ZCS</item>
+        <item>ZIF</item>
+        <item>ZIFS</item>
+        <item>ZIP</item>
+    </string-array>
+    <string-array name="zchild">
+        <item>Zone Constant Angular Velocity</item>
+        <item>Zero Code Suppression</item>
+        <item>Zero Insertion Force</item>
+        <item>Zero Insertion Force Socket</item>
+        <item>ZIP file archive</item>
+    </string-array>
+
 </resources>
